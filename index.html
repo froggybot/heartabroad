@@ -3,63 +3,48 @@
 <head>
 <meta charset="utf-8">
 <title>Welcome to HeartAbroad</title>
-	<style>
-		body {background-color:#FAF3EB;font-family:marigny,sans-serif;font-style:normal;font-weight:400;}
-		p {color:#42210B;font-size:100%}
-		.body{max-width:1200px;display:flex;flex-wrap:wrap;align-content:center;}
-		.container{display:flex;flex-wrap:wrap;flex-direction:column;align-content:center}
-		.contentrow{display:flex;flex-wrap:wrap;flex-direction:row;align-content:center}
-		.contentcolumn{display:flex;flex-wrap:wrap;flex-direction:column;align-content:center;max-width:33%}
-		.contentcolumn > div {display:flex;flex-wrap:wrap;flex-direction:column;align-content:center;border-radius:12px;box-shadow: -8px 8px 3px 2px #F2E2CE;margin-left:20px;margin-right:20px;margin-top:10px;margin-bottom:10px}
-		.category{display:flex;flex-wrap:wrap;flex-direction:column;align-content:center;background-color:white}
-		.category > div {display:flex;flex-wrap:wrap;margin:20px}
-		.articleblock{display:flex;flex-wrap:wrap;flex-direction:row;align-content:center;margin:10px;}
-		.articlepreview{display:flex;flex-wrap:wrap;flex-direction:column;align-content:left;margin:10px;}
-		.accent{font-family:dreaming-outloud-sans,sans-serif;font-style:normal;font-weight:400;font-size:300%;color:#42210B;text-shadow:-5px 5px #F2E2CE}
-		.accent2{font-family:dreaming-outloud-script,sans-serif;font-style:normal;font-weight:400;font-size:200%;color:#42210B;text-shadow:4px 4px #F2E2CE}
-		.eats{color;#C53426}
-		.sights{color;#F2BFCC}
-		.tips{color;#E0803B}
-		.eatheading{font-family:marigny,sans-serif;font-style:normal;font-weight:500;font-size:150%;background-color:#C53426;color:white;}
-		.eatbutton{text-align:center;background-color:#C53426;color:white;padding:15px;border-radius:12px;margin:10px;}
-		.eatbutton2{text-align:center;background-color:white;color:#C53426;padding:15px;border:thick double;border-radius:12px;border-color:#C53426;margin:2px;}
-		.sightheading{font-family:marigny,sans-serif;font-style:normal;font-weight:500;font-size:150%;background-color:#F2BFCC;color:white;}
-		.sightbutton{text-align:center;background-color:#F2BFCC;color:white;padding:15px;border-radius:12px;margin:10px;}
-		.sightbutton2{text-align:center;background-color:white;color:#F2BFCC;padding:15px;border:thick double;border-radius:12px;border-color:#F2BFCC;margin:2px;}
-		.tipheading{font-family:marigny,sans-serif;font-style:normal;font-weight:500;font-size:150%;background-color:#E0803B;color:white;}
-		.tipbutton{text-align:center;background-color:#E0803B;color:white;padding:15px;border-radius:12px;margin:10px;}
-		.tipbutton2{text-align:center;background-color:white;color:#E0803B;padding:15px;border:thick double;border-radius:12px;border-color:#E0803B;margin:2px;}
-		.homepage{display:flex;flex-wrap:wrap;flex-direction:column;align-content:left;background-image: url("images/homepage-graphic.png");background-repeat:no-repeat;}
-	</style>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://use.typekit.net/jdp5znc.css">
 </head>
 
 <body>
 	<div class="body">
+		<div class="navbar">
+			<ul style="list-style-type:none;">
+				<li><span class="homelink"><a href="">Heart<span class="homelink2"> Abroad</span></a></span></li>
+				<li><span class="navelement"><a href="">TIPS AND TRICKS</a></span></li>
+				<li><span class="navelement"><a href="">SIGHTSEEING</a></span></li>
+				<li><span class="navelement"><a href="">EATS</a></span></li>
+				<li><span class="navelement"><a href="">MAP</a></span></li>
+			</ul>
+		</div>
 		<div class="container">
 			<div class="homepage">
-				<div class="accent"><h1>Welcome</h1></div>
-				<div class="accent2"><h1>to Heart Abroad</h1></div>
-				<div> <p style="height:250px">filler filler</p></div>
+				<div style="padding-top:100px;">
+					<h1>
+						<span style="padding-left:0px" class="accent">Welcome</span><br>
+						<span style="padding-left:50px" class="accent2">to Heart Abroad</span><br>
+					</h1>
+					<div class="missionstatement"><p><i>Inspiring curious minds and adventurous hearts.</i><br>I aim to share the beauty and culture of Japan, spreading love and appreciation for my heart and home abroad.</p>
+					</div>
+					<a href=""><img src="images/mapicon.png" alt="Map Cursor" style="width:150px;margin-top:100px;margin-left:750px"></a>
+				</div>
 			</div>
 			<div class="contentrow">
 				<div class="contentcolumn">
 				<div class="eatheading"><h2>EATS</h2></div>
 				<div class="category">
 					<div class="articleblock">
-						<div> 
-							<img alt="japan" src="file:///C:/Users/Tanuk/OneDrive/Pictures/sapporo-shrine-torii-snow.jpg" style="width:50%">
-						</div>
+						<img alt="japan" src="images/taiyaki.jpg" style="width:45%">
 						<div class="articlepreview">
-							<div><p>article article</p></div>
+							<div><p>Are you a fan of street food? Fried food and desserts? Taiyaki are common... </p></div>
 							<div><a href="" class="eatbutton">Read More</a></div>
 						</div>
 					</div>
 					<div class="articleblock">
-						<div> 
-							<img alt="japan" src="file:///C:/Users/Tanuk/OneDrive/Pictures/sapporo-shrine-torii-snow.jpg" style="width:50%">
-						</div>
+						<img alt="japan" src="images/restaurant.jpg" style="width:45%">
 						<div class="articlepreview">
-							<div><p>article article</p></div>
+							<div><p>Casual family restaurants are super common in Japan. Here are 5 places you can...</p></div>
 							<div><a href="" class="eatbutton">Read More</a></div>
 						</div>
 					</div>
@@ -70,20 +55,16 @@
 				<div class="sightheading"><h2>SIGHTSEEING</h2></div>
 				<div class="category">
 					<div class="articleblock">
-						<div> 
-							<img alt="japan" src="file:///C:/Users/Tanuk/OneDrive/Pictures/sapporo-shrine-torii-snow.jpg" style="width:50%">
-						</div>
+						<img alt="japan" src="images/tori.jpg" style="width:45%">
 						<div class="articlepreview">
-							<div><p>article article</p></div>
+							<div><p>Tori can be found all over Japan. The one on Miyajima island is known for reflecting beaut...</p></div>
 							<div><a href="" class="sightbutton">Read More</a></div>
 						</div>
 					</div>
 					<div class="articleblock">
-						<div> 
-							<img alt="japan" src="file:///C:/Users/Tanuk/OneDrive/Pictures/sapporo-shrine-torii-snow.jpg" style="width:50%">
-						</div>
+						<img alt="japan" src="images/fuji.jpg" style="width:45%">
 						<div class="articlepreview">
-							<div><p>article article</p></div>
+							<div><p>The busy streets of Tokyo may call to you with shops and treats, but the natural sight...</p></div>
 							<div><a href="" class="sightbutton">Read More</a></div>
 						</div>
 					</div>
@@ -94,20 +75,16 @@
 				<div class="tipheading"><h2>TIPS/TRICKS</h2></div>
 				<div class="category">
 					<div class="articleblock">
-						<div> 
-							<img alt="japan" src="file:///C:/Users/Tanuk/OneDrive/Pictures/sapporo-shrine-torii-snow.jpg" style="width:50%">
-						</div>
+						<img alt="japan" src="images/trainstation.jpg" style="width:45%">
 						<div class="articlepreview">
-							<div><p>article article</p></div>
+							<div><p>Are you a fan of street food? Fried food and desserts? Taiyaki are common... </p></div>
 							<div><a href="" class="tipbutton">Read More</a></div>
 						</div>
 					</div>
 					<div class="articleblock">
-						<div> 
-							<img alt="japan" src="file:///C:/Users/Tanuk/OneDrive/Pictures/sapporo-shrine-torii-snow.jpg" style="width:50%">
-						</div>
+						<img alt="japan" src="images/kimono.jpg" style="width:45%">
 						<div class="articlepreview">
-							<div><p>article article</p></div>
+							<div><p>Casual family restaurants are super common in Japan. Here are 5 places you can...</p></div>
 							<div><a href="" class="tipbutton">Read More</a></div>
 						</div>
 					</div>
@@ -115,6 +92,15 @@
 				</div>
 			</div>
 			</div>
+		</div>
+		<div class="footer">
+			<div class="info">
+				<p>Heart Abroad</p>
+				<p> Nalani Kennedy</p>
+				<p> 360 506 9602 </p>
+				<p>nken9927@gmail.com</p>
+			</div>
+			<img src="images/logo.png" alt="HeartAbroad Logo">
 		</div>
 	</div>
 </body>
