@@ -6,19 +6,23 @@
 		a:link {;text-decoration:none;}
 		a:visited {text-decoration:none;}
 		a:hover {color:#42210B;text-decoration:underline}
+h2 {font-weight:300}
+h3 {font-weight:300}
 		.body {display:flex;flex-wrap:wrap;align-content:center;margin:0 auto;}
-		.container {display:flex;flex-wrap:wrap;flex-direction:column;align-content:center;padding-top:300px;width:1200px;margin:0 auto;}
+		.container {display:flex;flex-wrap:wrap;flex-direction:column;align-content:center;padding-top:300px;width:100%;margin:0 auto;}
 		.contentrow {display:flex;flex-wrap:wrap;flex-direction:row;align-content:center;margin-bottom:50px}
 		.contentcolumn {display:flex;flex-wrap:wrap;flex-direction:column;align-content:center;max-width:33%}
 		.contentcolumn > div {display:flex;flex-wrap:wrap;flex-direction:column;align-content:center;border-radius:12px;box-shadow: -8px 8px 3px 2px #F2E2CE;margin-left:20px;margin-right:20px;margin-top:10px;margin-bottom:10px}
 		.contentcolumn2 {display:flex;flex-wrap:wrap;flex-direction:column;align-content:center;max-width:50%}
 		.contentcolumn2 > div {display:flex;flex-wrap:wrap;flex-direction:column;align-content:center;border-radius:12px;box-shadow: -8px 8px 3px 2px #F2E2CE;margin-left:20px;margin-right:20px;margin-top:10px;margin-bottom:10px}
+.contentcolumn3 {display:flex;flex-wrap:wrap;flex-direction:column;align-content:center;align-self:center;alignment-baseline: center;max-width:100%}
+		.contentcolumn3 > div {display:flex;flex-wrap:wrap;flex-direction:column;align-content:center;border-radius:12px;box-shadow: -8px 8px 3px 2px #F2E2CE;margin-left:20px;margin-right:20px;margin-top:10px;margin-bottom:10px}
 		.pagehead {display:flex;flex-wrap:wrap;flex-direction:column;align-content:center;width:50%;background-color:white;padding:15px;border:thick double;border-radius:12px;margin:2px;font-size:150%;text-align:center;font-family: "dreaming-outloud-sans", sans-serif;font-weight: 400;font-style: normal}
 		.pagehead2 {display:flex;flex-wrap:wrap;flex-direction:column;align-content:center;width:50%;color:white;padding:15px; border-radius:12px;margin:10px;box-shadow:-8px 8px 3px 2px #F2E2CE;font-size:150%;text-align:center;font-family: "dreaming-outloud-sans", sans-serif;font-weight: 400;font-style: normal}
 		.category {display:flex;flex-wrap:wrap;flex-direction:column;align-content:center;background-color:white}
 		.category > div {display:flex;flex-wrap:wrap;margin:20px}
 		.articleblock {display:flex;align-content:center;margin:10px;}
-		.articlepreview {display:flex;flex-wrap:wrap;flex-direction:column;align-content:left;margin:10px;max-width:45%}
+		.articlepreview {display:flex;flex-wrap:wrap;flex-direction:column;align-content:left;margin:10px;max-width:45%;text-align:justify}
 		.accent {font-family: "dreaming-outloud-sans", sans-serif;font-weight: 400;font-style: normal;font-size:300%;color:#42210B;text-shadow:-5px 5px #F2E2CE;}
 		.accent2 {font-family:dreaming-outloud-script,sans-serif;font-style:normal;font-weight:400;font-size:200%;color:#42210B;text-shadow:4px 4px #F2E2CE}
 		.eats {color:#C53426;}
@@ -36,10 +40,11 @@
 		.tipbutton2 {text-align:center;background-color:white;color:#E0803B;padding:15px;border:thick double;border-radius:12px;border-color:#E0803B;margin:2px;}
 		.homepage {display:flex;flex-wrap:wrap;flex-direction:column;align-content:left;background-image: url(images/homepage-graphic.png);background-repeat:no-repeat;width:1000px;margin:0 auto;height:712px;}
 		.missionstatement {width:400px;margin-left:120px;padding-left:20px;padding-top:5px;padding-bottom:5px;border-radius:12px;border-style:double;border-color:#42210B;background-color:hsla(32,60%,95%,0.64)}
-		.navbar {background-color:#F2E2CE;float:right;width:100%;margin:0 auto;padding:0px;padding-top:10px;position:fixed;top:0;}
-		.navelement {float:right;margin:20px}
+		.navbar {background-color:#F2E2CE;width:1200px;margin:0 auto;padding:20px;padding-top:10px;position:fixed;top:0;}
+		.navelement {float:right;margin:20px;}
 		.homelink {font-family: "dreaming-outloud-sans", sans-serif;font-weight:400;font-style:normal;color:#42210B;font-size:50px;text-decoration:none;}
 		.homelink2 {font-family:"dreaming-outloud-script",sans-serif;font-style:normal;font-weight:400;color:#42210B;font-size:50px;text-decoration:none;}
 		.footer {display:flex;flex-wrap:wrap;flex-direction:row-reverse;background-color:#F2E2CE;width:100%;margin:0 auto;padding:20px;position:relative;bottom:0}
 		.info {margin-top:30px;margin-right:30px;margin-left:10px;text-align:end}
 		.subtitle {font-size:200%;font-style:italic;}
+		.form {padding-bottom:40px;}
