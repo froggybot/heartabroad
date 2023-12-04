@@ -40,7 +40,7 @@ h3 {font-weight:300}
 		.tipbutton2 {text-align:center;background-color:white;color:#E0803B;padding:15px;border:thick double;border-radius:12px;border-color:#E0803B;margin:2px;}
 		.homepage {display:flex;flex-wrap:wrap;flex-direction:column;align-content:left;background-image: url(images/homepage-graphic.png);background-repeat:no-repeat;width:1000px;margin:0 auto;height:712px;}
 		.missionstatement {width:400px;margin-left:120px;padding-left:20px;padding-top:5px;padding-bottom:5px;border-radius:12px;border-style:double;border-color:#42210B;background-color:hsla(32,60%,95%,0.64)}
-		.navbar {background-color:#F2E2CE;width:1200px;margin:0 auto;padding:20px;padding-top:10px;position:fixed;top:0;}
+		.navbar {background-color:#F2E2CE;width:100%;margin:0 auto;padding:20px;padding-top:10px;position:fixed;top:0;}
 		.navelement {float:right;margin:20px;}
 		.homelink {font-family: "dreaming-outloud-sans", sans-serif;font-weight:400;font-style:normal;color:#42210B;font-size:50px;text-decoration:none;}
 		.homelink2 {font-family:"dreaming-outloud-script",sans-serif;font-style:normal;font-weight:400;color:#42210B;font-size:50px;text-decoration:none;}
