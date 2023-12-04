@@ -9,7 +9,7 @@
 h2 {font-weight:300}
 h3 {font-weight:300}
 		.body {display:flex;flex-wrap:wrap;align-content:center;margin:0 auto;}
-		.container {display:flex;flex-wrap:wrap;flex-direction:column;align-content:center;padding-top:300px;width:100%;margin:0 auto;}
+		.container {display:flex;flex-wrap:wrap;flex-direction:column;align-content:center;padding-top:200px;width:100%;margin:0 auto;}
 		.contentrow {display:flex;flex-wrap:wrap;flex-direction:row;align-content:center;margin-bottom:50px}
 		.contentcolumn {display:flex;flex-wrap:wrap;flex-direction:column;align-content:center;max-width:33%}
 		.contentcolumn > div {display:flex;flex-wrap:wrap;flex-direction:column;align-content:center;border-radius:12px;box-shadow: -8px 8px 3px 2px #F2E2CE;margin-left:20px;margin-right:20px;margin-top:10px;margin-bottom:10px}
